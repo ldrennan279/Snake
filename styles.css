@@ -1,0 +1,80 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Creepster", cursive;
+}
+.container {
+  background-image: url("images/luke-jones-uNNMB3zGj-s-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+h2 {
+  font-size: 2.5rem;
+  color: greenyellow;
+  margin: 0 0 10px;
+}
+#start-btn {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  margin: 10px;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 5px;
+  font-family: "Creepster", cursive;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: 1px solid lightgreen;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  align-items: center;
+}
+.square {
+  width: 20px;
+  height: 20px;
+}
+.snake {
+  background-color: yellowgreen;
+}
+.apple {
+  background-image: url("images/apple-4967157_960_720.png");
+  background-size: cover;
+  border-radius: 45%;
+}
+#active {
+  display: none;
+  color: blueviolet;
+  position: absolute;
+  padding: 5px;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.moveSnake button {
+  background: red;
+  color: white;
+  padding: 5px 15px;
+  font-size: 1.5rem;
+  font-family: "Creepster", cursive;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+  width: 90px;
+}
+button:hover,
+button:focus {
+  box-shadow: white 0px 0px 30px;
+}
